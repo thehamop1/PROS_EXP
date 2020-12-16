@@ -16,6 +16,7 @@
 #pragma once
 
 #include <stdint.h>
+#include <stddef.h>
 
 #define COBS_ENCODE_MEASURE_MAX(src_len) ((src_len) + (((src_len) + 253) / 254))
 

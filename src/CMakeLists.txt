@@ -11,7 +11,6 @@ set(DEVICES_SRCS
     devices/battery.cpp
     devices/controller.c
     devices/controller.cpp
-    devices/README.md
     devices/registry.c
     devices/vdml_adi.c
     devices/vdml_adi.cpp
@@ -33,4 +32,160 @@ set(DEVICES_SRCS
     devices/vdml_usd.cpp
     devices/vdml_vision.c
     devices/vdml_vision.cpp
+)
+
+set(DISPLAY_SRCS
+    display/display.c
+    display/error.c
+    display/llemu.c
+    display/llemu.cpp
+    display/lv_core/lv_group.c
+    display/lv_core/lv_indev.c
+    display/lv_core/lv_lang.c
+    display/lv_core/lv_obj.c
+    display/lv_core/lv_refr.c
+    display/lv_core/lv_style.c
+    display/lv_core/lv_vdb.c
+    display/lv_draw/lv_draw.c
+    display/lv_draw/lv_draw_arc.c
+    display/lv_draw/lv_draw_img.c
+    display/lv_draw/lv_draw_label.c
+    display/lv_draw/lv_draw_line.c
+    display/lv_draw/lv_draw_rbasic.c
+    display/lv_draw/lv_draw_rect.c
+    display/lv_draw/lv_draw_triangle.c
+    display/lv_draw/lv_draw_vbasic.c
+    display/lv_fonts/lv_font_builtin.c
+    display/lv_fonts/lv_font_dejavu_10.c
+    display/lv_fonts/lv_font_dejavu_10_cyrillic.c
+    display/lv_fonts/lv_font_dejavu_10_latin_sup.c
+    display/lv_fonts/lv_font_dejavu_20.c
+    display/lv_fonts/lv_font_dejavu_20_cyrillic.c
+    display/lv_fonts/lv_font_dejavu_20_latin_sup.c
+    display/lv_fonts/lv_font_dejavu_30.c
+    display/lv_fonts/lv_font_dejavu_30_cyrillic.c
+    display/lv_fonts/lv_font_dejavu_30_latin_sup.c
+    display/lv_fonts/lv_font_dejavu_40.c
+    display/lv_fonts/lv_font_dejavu_40_cyrillic.c
+    display/lv_fonts/lv_font_dejavu_40_latin_sup.c
+    display/lv_fonts/lv_font_monospace_8.c
+    display/lv_fonts/lv_font_symbol_10.c
+    display/lv_fonts/lv_font_symbol_20.c
+    display/lv_fonts/lv_font_symbol_30.c
+    display/lv_fonts/lv_font_symbol_40.c
+    display/lv_fonts/pros_font_dejavu_mono_10.c
+    display/lv_fonts/pros_font_dejavu_mono_20.c
+    display/lv_fonts/pros_font_dejavu_mono_30.c
+    display/lv_fonts/pros_font_dejavu_mono_40.c
+    display/lv_fonts/pros_font_dejavu_mono_latin_sup_10.c
+    display/lv_fonts/pros_font_dejavu_mono_latin_sup_20.c
+    display/lv_fonts/pros_font_dejavu_mono_latin_sup_30.c
+    display/lv_fonts/pros_font_dejavu_mono_latin_sup_40.c
+    display/lv_hal/lv_hal_disp.c
+    display/lv_hal/lv_hal_indev.c
+    display/lv_hal/lv_hal_tick.c
+    display/lv_misc/lv_anim.c
+    display/lv_misc/lv_area.c
+    display/lv_misc/lv_circ.c
+    display/lv_misc/lv_color.c
+    display/lv_misc/lv_font.c
+    display/lv_misc/lv_fs.c
+    display/lv_misc/lv_gc.c
+    display/lv_misc/lv_ll.c
+    display/lv_misc/lv_log.c
+    display/lv_misc/lv_math.c
+    display/lv_misc/lv_mem.c
+    display/lv_misc/lv_task.c
+    display/lv_misc/lv_templ.c
+    display/lv_misc/lv_txt.c
+    display/lv_misc/lv_ufs.c
+    display/lv_objx/lv_arc.c
+    display/lv_objx/lv_bar.c
+    display/lv_objx/lv_btn.c
+    display/lv_objx/lv_btnm.c
+    display/lv_objx/lv_calendar.c
+    display/lv_objx/lv_canvas.c
+    display/lv_objx/lv_cb.c
+    display/lv_objx/lv_chart.c
+    display/lv_objx/lv_cont.c
+    display/lv_objx/lv_ddlist.c
+    display/lv_objx/lv_gauge.c
+    display/lv_objx/lv_img.c
+    display/lv_objx/lv_imgbtn.c
+    display/lv_objx/lv_kb.c
+    display/lv_objx/lv_label.c
+    display/lv_objx/lv_led.c
+    display/lv_objx/lv_line.c
+    display/lv_objx/lv_list.c
+    display/lv_objx/lv_lmeter.c
+    display/lv_objx/lv_mbox.c
+    display/lv_objx/lv_objx_templ.c
+    display/lv_objx/lv_page.c
+    display/lv_objx/lv_preload.c
+    display/lv_objx/lv_roller.c
+    display/lv_objx/lv_slider.c
+    display/lv_objx/lv_spinbox.c
+    display/lv_objx/lv_sw.c
+    display/lv_objx/lv_ta.c
+    display/lv_objx/lv_table.c
+    display/lv_objx/lv_tabview.c
+    display/lv_objx/lv_tileview.c
+    display/lv_objx/lv_win.c
+    display/lv_themes/lv_theme.c
+    display/lv_themes/lv_theme_alien.c
+    display/lv_themes/lv_theme_default.c
+    display/lv_themes/lv_theme_material.c
+    display/lv_themes/lv_theme_mono.c
+    display/lv_themes/lv_theme_nemo.c
+    display/lv_themes/lv_theme_night.c
+    display/lv_themes/lv_theme_templ.c
+    display/lv_themes/lv_theme_zen.c
+)
+
+set(RTOS_SRCS
+    rtos/heap_4.c
+    rtos/list.c
+    rtos/port.c
+    # rtos/portASM.S
+    rtos/queue.c
+    rtos/rtos.cpp
+    rtos/semphr.c
+    rtos/stream_buffer.c
+    rtos/task_notify_when_deleting.c
+    rtos/tasks.c
+    rtos/timers.c
+)
+
+set(SYSTEM_SRCS
+    system/cpp_support.cpp
+    system/dev
+    system/envlock.c
+    system/hot.c
+    system/mlock.c
+    system/newlib_stubs.c
+    system/rtos_hooks.c
+    system/startup.c
+    system/system_daemon.c
+    system/unwind.c
+    system/user_functions.c
+    system/dev/dev_driver.c
+    system/dev/file_system_stubs.c
+    system/dev/ser_daemon.c
+    system/dev/ser_driver.c
+    system/dev/usd_driver.c
+    system/dev/vfs.c
+    # system/xilinx_vectors.s
+)
+
+add_library(PROS_LIB 
+    ${COMMON_SRCS}
+    ${DEVICES_SRCS}
+    ${DISPLAY_SRCS}
+    ${RTOS_SRCS}
+    ${SYSTEM_SRCS}
+)
+
+include_directories(PROS_LIB 
+    ${CMAKE_SOURCE_DIR}/include
+    ${CMAKE_SOURCE_DIR}/include/common
 )
