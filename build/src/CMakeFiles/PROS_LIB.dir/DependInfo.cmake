@@ -160,6 +160,12 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../src/PROS_LIB"
   "../include"
   "../include/common"
+  "../include/display"
+  "../include/libv5rts"
+  "../include/pros"
+  "../include/rtos"
+  "../include/system"
+  "../include/vdml"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/root/PROS_EXP/src/devices/battery.cpp" "/root/PROS_EXP/build/src/CMakeFiles/PROS_LIB.dir/devices/battery.cpp.o"
@@ -184,6 +190,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src/PROS_LIB"
   "../include"
   "../include/common"
+  "../include/display"
+  "../include/libv5rts"
+  "../include/pros"
+  "../include/rtos"
+  "../include/system"
+  "../include/vdml"
   )
 
 # Targets to which this target links.

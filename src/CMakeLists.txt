@@ -188,4 +188,10 @@ add_library(PROS_LIB
 include_directories(PROS_LIB 
     ${CMAKE_SOURCE_DIR}/include
     ${CMAKE_SOURCE_DIR}/include/common
+    ${CMAKE_SOURCE_DIR}/include/display
+    ${CMAKE_SOURCE_DIR}/include/libv5rts
+    ${CMAKE_SOURCE_DIR}/include/pros
+    ${CMAKE_SOURCE_DIR}/include/rtos
+    ${CMAKE_SOURCE_DIR}/include/system
+    ${CMAKE_SOURCE_DIR}/include/vdml
 )

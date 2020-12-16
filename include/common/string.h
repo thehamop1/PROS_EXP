@@ -14,7 +14,7 @@
  */
 
 #pragma once
-
+#include <stddef.h>
 /**
  * strdup but uses the kernel heap
  *

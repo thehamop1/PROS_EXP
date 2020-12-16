@@ -21,7 +21,7 @@
 #ifndef _PROS_RTOS_HPP_
 #define _PROS_RTOS_HPP_
 
-#include "pros/rtos.h"
+#include "rtos.h"
 #undef delay
 #include <cstdint>
 #include <cstdlib>

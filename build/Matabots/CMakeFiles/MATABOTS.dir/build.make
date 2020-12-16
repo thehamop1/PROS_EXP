@@ -60,15 +60,15 @@ include Matabots/CMakeFiles/MATABOTS.dir/flags.make
 Matabots/CMakeFiles/MATABOTS.dir/main.cpp.o: Matabots/CMakeFiles/MATABOTS.dir/flags.make
 Matabots/CMakeFiles/MATABOTS.dir/main.cpp.o: ../Matabots/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/PROS_EXP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Matabots/CMakeFiles/MATABOTS.dir/main.cpp.o"
-	cd /root/PROS_EXP/build/Matabots && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MATABOTS.dir/main.cpp.o -c /root/PROS_EXP/Matabots/main.cpp
+	cd /root/PROS_EXP/build/Matabots && arm-none-eabi-g++ --sysroot=/usr/bin/../arm-none-eabi  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MATABOTS.dir/main.cpp.o -c /root/PROS_EXP/Matabots/main.cpp
 
 Matabots/CMakeFiles/MATABOTS.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MATABOTS.dir/main.cpp.i"
-	cd /root/PROS_EXP/build/Matabots && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PROS_EXP/Matabots/main.cpp > CMakeFiles/MATABOTS.dir/main.cpp.i
+	cd /root/PROS_EXP/build/Matabots && arm-none-eabi-g++ --sysroot=/usr/bin/../arm-none-eabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PROS_EXP/Matabots/main.cpp > CMakeFiles/MATABOTS.dir/main.cpp.i
 
 Matabots/CMakeFiles/MATABOTS.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MATABOTS.dir/main.cpp.s"
-	cd /root/PROS_EXP/build/Matabots && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PROS_EXP/Matabots/main.cpp -o CMakeFiles/MATABOTS.dir/main.cpp.s
+	cd /root/PROS_EXP/build/Matabots && arm-none-eabi-g++ --sysroot=/usr/bin/../arm-none-eabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PROS_EXP/Matabots/main.cpp -o CMakeFiles/MATABOTS.dir/main.cpp.s
 
 # Object files for target MATABOTS
 MATABOTS_OBJECTS = \

@@ -94,8 +94,8 @@
 #define portBASE_TYPE	long
 
 typedef portSTACK_TYPE task_stack_t;
-typedef long int32_t;
-typedef unsigned long uint32_t;
+// typedef long int32_t;
+// typedef unsigned long uint32_t;
 
 typedef uint32_t uint32_t;
 #define portMAX_DELAY ( uint32_t ) 0xffffffffUL
