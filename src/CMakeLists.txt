@@ -1,0 +1,36 @@
+set(COMMON_SRCS
+    common/cobs.c
+    common/gid.c
+    common/linkedlist.c
+    common/set.c
+    common/string.c
+)
+
+set(DEVICES_SRCS
+    devices/battery.c
+    devices/battery.cpp
+    devices/controller.c
+    devices/controller.cpp
+    devices/README.md
+    devices/registry.c
+    devices/vdml_adi.c
+    devices/vdml_adi.cpp
+    devices/vdml.c
+    devices/vdml_distance.c
+    devices/vdml_distance.cpp
+    devices/vdml_ext_adi.c
+    devices/vdml_imu.c
+    devices/vdml_imu.cpp
+    devices/vdml_motors.c
+    devices/vdml_motors.cpp
+    devices/vdml_optical.c
+    devices/vdml_optical.cpp
+    devices/vdml_rotation.c
+    devices/vdml_rotation.cpp
+    devices/vdml_serial.c
+    devices/vdml_serial.cpp
+    devices/vdml_usd.c
+    devices/vdml_usd.cpp
+    devices/vdml_vision.c
+    devices/vdml_vision.cpp
+)
